@@ -5,7 +5,7 @@ For this example i'm using 2.8" TFT LCD Shield connected to an ESP32 to display 
 # Pin config
 ![circuit_image](https://github.com/user-attachments/assets/38ae7410-2e3d-42ea-8c24-bc39997436ca)
 
-|  LCD | ESP32 Pins                                      |
+|  LCD | ESP32 Pins                                                |
 |-----------------|------------------------------------------------|
 | GND             | GND                                            |
 | 5V              | 5V                                             |
@@ -23,6 +23,15 @@ For this example i'm using 2.8" TFT LCD Shield connected to an ESP32 to display 
 | LCD_D5          | GPIO19                                         |
 | LCD_D6          | GPIO18                                         |
 | LCD_D7          | GPIO17                                         |
+
+
+# Library
+I'm using TFT_eSPI by Bodmer, but I had to change a few things so it could work.
+
+Navigate to libdeps --> TFT_eSPI --> User_Setup.h
+![image](https://github.com/user-attachments/assets/15ec396c-1d72-4013-bd58-f8fb1cd46199)
+
+
 
 
 
